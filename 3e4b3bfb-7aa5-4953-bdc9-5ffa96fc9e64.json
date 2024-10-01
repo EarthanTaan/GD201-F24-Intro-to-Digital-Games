@@ -92,6 +92,17 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Animals/4010952711ac121c345bce36c954ada1866c8cf0ad32e8975d5ff478f2ea6844_Alpaca.glb",
           "name": "Alpaca.glb"
         }
+      },
+      {
+        "file": "assets/Trex.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trex.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Dinosaurs/3e3bd01d1390a6f4da0e4e284e6225c61107ce1cf2b47abb04e0e1dbeb613c00_Trex.glb",
+          "name": "Trex.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -104,15 +115,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 95,
+      "b": 31,
       "disableInputWhenNotFocused": true,
       "mangledName": "Tofu_32Goes_32to_32Hollywood",
       "name": "Tofu Goes to Hollywood",
-      "r": 86,
+      "r": 49,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 39,
+      "v": 68,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -123,7 +134,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943828,
+        "zoomFactor": 0.20220707303601887,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -141,23 +152,6 @@
           "x": 313,
           "y": 1004,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 178,
-          "height": 178,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crate",
-          "persistentUuid": "259b5008-ee47-4864-8d18-17d455e97fa6",
-          "width": 178,
-          "x": 270,
-          "y": 88,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -193,61 +187,25 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trex",
+          "persistentUuid": "d84f12a7-c2db-4b4b-840f-67e18f9c34e3",
+          "width": 0,
+          "x": 361,
+          "y": 120,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "",
-          "name": "Crate",
-          "type": "Scene3D::Cube3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 45,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 200,
-              "rotateObject": true,
-              "smoothingMaxCellGap": 1
-            }
-          ],
-          "content": {
-            "width": 16,
-            "height": 16,
-            "depth": 16,
-            "enableTextureTransparency": false,
-            "facesOrientation": "Y",
-            "frontFaceResourceName": "New3DBox_Front",
-            "backFaceResourceName": "New3DBox_Front",
-            "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "New3DBox_Front",
-            "rightFaceResourceName": "New3DBox_Front",
-            "topFaceResourceName": "New3DBox_Front",
-            "bottomFaceResourceName": "New3DBox_Front",
-            "frontFaceVisible": true,
-            "backFaceVisible": false,
-            "leftFaceVisible": true,
-            "rightFaceVisible": true,
-            "topFaceVisible": true,
-            "bottomFaceVisible": true,
-            "frontFaceResourceRepeat": false,
-            "backFaceResourceRepeat": false,
-            "leftFaceResourceRepeat": false,
-            "rightFaceResourceRepeat": false,
-            "topFaceResourceRepeat": false,
-            "bottomFaceResourceRepeat": false,
-            "materialType": "StandardWithoutMetalness"
-          }
-        },
         {
           "assetStoreId": "",
           "name": "Tofu",
@@ -293,48 +251,26 @@
           "name": "TopLight",
           "type": "Lighting::LightObject",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "content": {
             "radius": 2000,
             "color": "255;255;255",
             "debugMode": false,
             "texture": ""
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Camera",
-          "type": "Scene3D::Cube3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "width": 100,
-            "height": 100,
-            "depth": 100,
-            "enableTextureTransparency": false,
-            "facesOrientation": "Y",
-            "frontFaceResourceName": "",
-            "backFaceResourceName": "",
-            "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "",
-            "rightFaceResourceName": "",
-            "topFaceResourceName": "",
-            "bottomFaceResourceName": "",
-            "frontFaceVisible": false,
-            "backFaceVisible": false,
-            "leftFaceVisible": false,
-            "rightFaceVisible": false,
-            "topFaceVisible": false,
-            "bottomFaceVisible": false,
-            "frontFaceResourceRepeat": false,
-            "backFaceResourceRepeat": false,
-            "leftFaceResourceRepeat": false,
-            "rightFaceResourceRepeat": false,
-            "topFaceResourceRepeat": false,
-            "bottomFaceResourceRepeat": false,
-            "materialType": "Basic"
           }
         },
         {
@@ -345,6 +281,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -355,10 +293,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "content": {
@@ -421,14 +357,81 @@
               }
             ]
           }
+        },
+        {
+          "assetStoreId": "5f75fc241faac48c2e7081c4ad1295faf238b9f5ae75d3e403054813ce1bcb56",
+          "name": "Trex",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 152.2499744161529,
+            "height": 79.53674696408216,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Trex.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 310.295692449735,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Idle",
+                "source": "TRex_Idle"
+              },
+              {
+                "loop": true,
+                "name": "Walk",
+                "source": "TRex_Walk"
+              },
+              {
+                "loop": true,
+                "name": "Run",
+                "source": "TRex_Run"
+              },
+              {
+                "loop": false,
+                "name": "Jump",
+                "source": "TRex_Jump"
+              },
+              {
+                "loop": false,
+                "name": "Attack",
+                "source": "TRex_Attack"
+              },
+              {
+                "loop": false,
+                "name": "Death",
+                "source": "TRex_Death"
+              }
+            ]
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "objectName": "Crate"
-          },
           {
             "objectName": "Tofu"
           },
@@ -436,14 +439,28 @@
             "objectName": "TopLight"
           },
           {
-            "objectName": "Camera"
+            "objectName": "Alpaca"
           },
           {
-            "objectName": "Alpaca"
+            "objectName": "Trex"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -453,7 +470,7 @@
                 "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "Crate",
+                "Trex",
                 "Pathfinding",
                 "",
                 "CursorX()",
@@ -477,10 +494,10 @@
                 "value": "PathfindingBehavior::Speed"
               },
               "parameters": [
-                "Crate",
+                "Trex",
                 "Pathfinding",
                 "=",
-                "100"
+                "400"
               ]
             },
             {
@@ -491,7 +508,7 @@
                 "Alpaca",
                 "Pathfinding",
                 "=",
-                "400"
+                "100"
               ]
             },
             {
@@ -513,26 +530,15 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Trex",
                 "Tofu",
-                "Crate",
                 "",
                 "",
                 ""
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Crate",
-                "Tofu",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -554,7 +560,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Crate",
+                "Trex",
                 "Alpaca",
                 "",
                 "",
