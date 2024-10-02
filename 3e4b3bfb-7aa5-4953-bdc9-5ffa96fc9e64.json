@@ -134,10 +134,33 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20220707303601887,
+        "zoomFactor": 0.3673257545058824,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Food Group",
+          "objects": [
+            {
+              "name": "Tofu"
+            },
+            {
+              "name": "Alpaca"
+            }
+          ]
+        },
+        {
+          "name": "Movers",
+          "objects": [
+            {
+              "name": "Alpaca"
+            },
+            {
+              "name": "Trex"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -152,22 +175,6 @@
           "x": 313,
           "y": 1004,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Lighting",
-          "name": "TopLight",
-          "persistentUuid": "5a5c5f00-d6a7-4e1c-9ac2-b0a043065160",
-          "width": 0,
-          "x": 372,
-          "y": -187,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -200,6 +207,23 @@
           "x": 361,
           "y": 120,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 514,
+          "keepRatio": true,
+          "layer": "TRex ate Tofu",
+          "name": "TRex_ate_Tofu_message",
+          "persistentUuid": "1da0c084-cc1a-4d73-b438-66bd37272e3b",
+          "width": 703,
+          "x": 11,
+          "y": 259,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -366,6 +390,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -376,10 +402,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "content": {
@@ -427,6 +451,47 @@
               }
             ]
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TRex_ate_Tofu_message",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "The Tyrannosaurus Rex has eaten the Tofu!\nShe's very unhappy :(",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 90,
+          "color": {
+            "b": 157,
+            "g": 255,
+            "r": 252
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "The Tyrannosaurus Rex has eaten the Tofu!\nShe's very unhappy :(",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 90,
+            "color": "252;255;157"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -443,6 +508,9 @@
           },
           {
             "objectName": "Trex"
+          },
+          {
+            "objectName": "TRex_ate_Tofu_message"
           }
         ]
       },
@@ -459,34 +527,16 @@
               ]
             }
           ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Trex",
-                "Pathfinding",
-                "",
-                "CursorX()",
-                "CursorY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
+                "value": "PathfindingBehavior::Speed"
               },
               "parameters": [
                 "Alpaca",
                 "Pathfinding",
-                "",
-                "CursorX()",
-                "CursorY()"
+                "=",
+                "100"
               ]
             },
             {
@@ -502,21 +552,9 @@
             },
             {
               "type": {
-                "value": "PathfindingBehavior::Speed"
+                "value": "CacheSouris"
               },
               "parameters": [
-                "Alpaca",
-                "Pathfinding",
-                "=",
-                "100"
-              ]
-            },
-            {
-              "type": {
-                "value": "AdvancedWindow::Maximize"
-              },
-              "parameters": [
-                "yes",
                 ""
               ]
             }
@@ -524,21 +562,33 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
                 "Trex",
-                "Tofu",
+                "Pathfinding",
                 "",
+                "Tofu.X()",
+                "Tofu.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Alpaca",
+                "Pathfinding",
                 "",
-                ""
+                "Tofu.X()",
+                "Tofu.Y()"
               ]
             }
-          ],
-          "actions": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -561,6 +611,43 @@
               },
               "parameters": [
                 "Trex",
+                "Tofu",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Tofu",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"TRex ate Tofu\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Trex",
                 "Alpaca",
                 "",
                 "",
@@ -568,7 +655,62 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Alpaca",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"TRex ate Alpaca\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Tofu",
+                "<",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Movers",
+                "Pathfinding",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "MontreSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -631,7 +773,121 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "Effect",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 0.5,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "TRex ate Tofu",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "TRex ate Alpaca",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Player Escaped",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -652,6 +908,10 @@
           "type": "Scene3D::Base3DBehavior"
         },
         {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
         },
@@ -662,6 +922,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "cursor",
