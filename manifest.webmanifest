@@ -1,0 +1,12 @@
+{
+  "name": "Alpaca Extraction",
+  "short_name": "Alpaca Extraction",
+  "id": "com.example.gamename",
+  "description": "You are bean curd. Run.",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

@@ -25,7 +25,7 @@
     "author": "Earthan Huq",
     "windowWidth": 1280,
     "windowHeight": 1280,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Student\\Documents\\GitHub\\GD201-F24-Intro-to-Digital-Games",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -348,6 +348,128 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/New Hero In Town.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "850a0341e42f8929a4e5d324eed0e44f2dfdfb059add0d40335663aac2f5bde7_New Hero In Town.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/New Hero In Town/850a0341e42f8929a4e5d324eed0e44f2dfdfb059add0d40335663aac2f5bde7_New Hero In Town.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/22 - Escape from the Planet of the Lobsters.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7562b7efe6a974f073b8794dcccb40467624f5ad64fafc5d8e94706c549c63b9_22 - Escape from the Planet of the Lobsters.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Rock Music/7562b7efe6a974f073b8794dcccb40467624f5ad64fafc5d8e94706c549c63b9_22 - Escape from the Planet of the Lobsters.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Complete_01.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "937fcf8d0cab03061661ab5a55a5aa28d11476493348612e54a716a4bbbe7bc6_Complete_01.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/937fcf8d0cab03061661ab5a55a5aa28d11476493348612e54a716a4bbbe7bc6_Complete_01.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Epic Boss Battle.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Cornfield Chase.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a4ebd0f063bbb6f3107e2b0c11782d489bd77db960a8ebaffd08f68e52c4e1d8_Cornfield Chase.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/a4ebd0f063bbb6f3107e2b0c11782d489bd77db960a8ebaffd08f68e52c4e1d8_Cornfield Chase.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Complete_02.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Run_08.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "d80550f911bb0224f6c49b07e622ff2f1905830b94aacaf842d9f5e32fd06460_Run_08.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Run/d80550f911bb0224f6c49b07e622ff2f1905830b94aacaf842d9f5e32fd06460_Run_08.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Hit 10.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/RexRoar.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 6\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.45,\\\"sustain\\\":0.84,\\\"sustainPunch\\\":10,\\\"decay\\\":1.25,\\\"tremoloDepth\\\":1,\\\"tremoloFrequency\\\":108,\\\"frequency\\\":70.07382960666051,\\\"frequencySweep\\\":-56.70496086341315,\\\"frequencyDeltaSweep\\\":2.3989834681288156,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":45,\\\"frequencyJump1Amount\\\":-25,\\\"frequencyJump2Onset\\\":60,\\\"frequencyJump2Amount\\\":75,\\\"harmonics\\\":2,\\\"harmonicsFalloff\\\":0.58,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":40,\\\"vibratoFrequency\\\":31,\\\"squareDuty\\\":65,\\\"squareDutySweep\\\":85,\\\"flangerOffset\\\":13,\\\"flangerOffsetSweep\\\":11,\\\"bitCrush\\\":2,\\\"bitCrushSweep\\\":11,\\\"lowPassCutoff\\\":3400,\\\"lowPassCutoffSweep\\\":3500,\\\"highPassCutoff\\\":1500,\\\"highPassCutoffSweep\\\":400,\\\"compression\\\":1.1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"RexRoar\"}}",
+        "name": "RexRoar",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -495,10 +617,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
-          "maxSpeed": 300,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "maxSpeed": 300,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -569,6 +691,8 @@
           "type": "Lighting::LightObstacleBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 1000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -579,10 +703,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 500,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -1313,20 +1435,20 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 0,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             },
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "content": {
@@ -1501,8 +1623,8 @@
               },
               "parameters": [
                 "",
-                "ScreenHeight()",
-                "ScreenHeight()",
+                "640",
+                "640",
                 ""
               ]
             },
@@ -1512,6 +1634,18 @@
               },
               "parameters": [
                 "Tofu"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
+                "",
+                "30",
+                ""
               ]
             }
           ]
@@ -1626,6 +1760,38 @@
                 "\"Run\""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TRex Steps Timer\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -1680,6 +1846,18 @@
               },
               "parameters": [
                 "Alpaca",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "RexRoar",
+                "",
+                "",
                 ""
               ]
             }
@@ -1757,6 +1935,18 @@
                 "",
                 "\"TRex ate Tofu message layer\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "RexRoar",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -1822,14 +2012,6 @@
                 "=",
                 "-200"
               ]
-            },
-            {
-              "type": {
-                "value": "MontreSouris"
-              },
-              "parameters": [
-                "Tofu"
-              ]
             }
           ],
           "events": [
@@ -1872,7 +2054,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "2.3"
+                    "2.5"
                   ]
                 },
                 {
@@ -2638,8 +2820,8 @@
               },
               "parameters": [
                 "",
-                "ScreenHeight()",
-                "ScreenHeight()",
+                "640",
+                "640",
                 ""
               ]
             },
@@ -2649,6 +2831,26 @@
               },
               "parameters": [
                 "ScreenWidth() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "a4ebd0f063bbb6f3107e2b0c11782d489bd77db960a8ebaffd08f68e52c4e1d8_Cornfield Chase.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MontreSouris"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]
@@ -3142,7 +3344,12 @@
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "content": {
             "LeftPadding": 16,
             "RightPadding": 16,
@@ -3272,8 +3479,8 @@
               },
               "parameters": [
                 "",
-                "ScreenHeight()",
-                "ScreenHeight()",
+                "640",
+                "640",
                 ""
               ]
             },
@@ -3352,6 +3559,18 @@
                 "",
                 "SceneWindowWidth() * 1.5",
                 "Alpaca.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "850a0341e42f8929a4e5d324eed0e44f2dfdfb059add0d40335663aac2f5bde7_New Hero In Town.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -3446,12 +3665,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetBooleanVariable"
+                    "value": "UnloadMusic"
                   },
                   "parameters": [
                     "buttonClicked",
-                    "True",
-                    ""
+                    "850a0341e42f8929a4e5d324eed0e44f2dfdfb059add0d40335663aac2f5bde7_New Hero In Town.aac"
                   ]
                 },
                 {
@@ -3462,10 +3680,10 @@
                     "",
                     "\"Win Video\"",
                     "\"https://www.youtube.com/embed/G87p148EOjo?si=al65LttpOI8rD3Yq&amp;start=39&autoplay=1\"",
-                    "SceneWindowWidth() * 0.5",
-                    "SceneWindowHeight() * 0.5",
-                    "100",
-                    "55",
+                    "512",
+                    "512",
+                    "64",
+                    "40",
                     "yes",
                     "yes",
                     "",
@@ -3521,12 +3739,16 @@
                     },
                     {
                       "type": {
-                        "value": "SetCenterY"
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
                         "Reset_Button",
-                        "-",
-                        "Reset_Button.Y() - SceneWindowHeight() * 0.9"
+                        "Tween",
+                        "\"RaiseButton\"",
+                        "SceneWindowHeight() * 0.9",
+                        "\"bouncePast\"",
+                        "2",
+                        ""
                       ]
                     }
                   ]
@@ -3547,6 +3769,26 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Iframe::Delete"
@@ -3664,7 +3906,7 @@
           "isLocked": false,
           "name": "Button Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -3733,12 +3975,962 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "VegeTato, arthuro555",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "Repeat every X seconds",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "RepeatEveryXSeconds",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "Trigger an event every X seconds.",
+      "version": "0.1.1",
+      "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
+      "origin": {
+        "identifier": "RepeatEveryXSeconds",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "repeat",
+        "timer",
+        "time"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Triggers every X seconds.",
+          "fullName": "Repeat with a scene timer",
+          "functionType": "Condition",
+          "name": "Repeat",
+          "sentence": "Repeat every _PARAM2_ seconds using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    ">=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName",
+                    ">=",
+                    "LoopDuration"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the number of times the timer has repeated.",
+          "fullName": "Repetition number of a scene timer",
+          "functionType": "ExpressionAndCondition",
+          "name": "Repetition",
+          "sentence": "Repetition number of timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Triggers every X seconds X amount of times.",
+          "fullName": "Repeat with a scene timer X times",
+          "functionType": "Condition",
+          "name": "RepeatXTimes",
+          "sentence": "Repeat every _PARAM2_ seconds _PARAM3_ times using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "MaxLoop",
+                        "<",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::Repetition"
+                      },
+                      "parameters": [
+                        "",
+                        "<",
+                        "MaxLoop",
+                        "TimerName",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    "LoopDuration",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            },
+            {
+              "description": "The limit of loops",
+              "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+              "name": "MaxLoop",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Reset repetition count of a scene timer.",
+          "fullName": "Reset repetition count of a scene timer",
+          "functionType": "Action",
+          "name": "DeleteTimer",
+          "sentence": "Reset repetition count for timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VariableRemoveChild"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions",
+                    "TimerName"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows to repeat an object timer every X seconds.",
+          "fullName": "Repeat every X seconds",
+          "name": "RepeatTimer",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds.",
+              "fullName": "Repeat with an object timer",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "Repeat2",
+              "sentence": "Repeat every _PARAM3_ seconds using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "LoopDuration"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the number of times the timer has repeated.",
+              "fullName": "Repetition number of an object timer",
+              "functionType": "ExpressionAndCondition",
+              "group": "Timers",
+              "name": "Repetition",
+              "sentence": "Repetition number of timer _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds X amount of times.",
+              "fullName": "Repeat with an object timer X times",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "RepeatXTimes",
+              "sentence": "Repeat every _PARAM3_ seconds _PARAM4_ times using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "MaxLoop",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::Repetition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "MaxLoop",
+                            "TimerName",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::Repeat2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "TimerName",
+                        "LoopDuration",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "The limit of loops",
+                  "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+                  "name": "MaxLoop",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Reset repetition count of an object timer.",
+              "fullName": "Reset repetition count of an object timer",
+              "functionType": "Action",
+              "group": "Timers",
+              "name": "DeleteTimer",
+              "sentence": "Reset repetition count for timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableRemoveChild"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds, where X is defined in the behavior properties.",
+              "fullName": "Repeat every X seconds (deprecated)",
+              "functionType": "Condition",
+              "name": "Repeat",
+              "private": true,
+              "sentence": "Recurring timer _PARAM1_ of _PARAM0_ has triggered",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        "TimerLength"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyLimit"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyCounter"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "Limit"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pauses a recurring timer.",
+              "fullName": "Pause a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Pause",
+              "private": true,
+              "sentence": "Pause recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resumes a paused recurring timer.",
+              "fullName": "Resume a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Resume",
+              "private": true,
+              "sentence": "Resume recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Allows to trigger the recurring timer X times again.",
+              "fullName": "Reset the limit (deprecated)",
+              "functionType": "Action",
+              "name": "ResetLimit",
+              "private": true,
+              "sentence": "Allow to trigger the recurring timer _PARAM1_ of _PARAM0_ X times again",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "MyTimer",
+              "type": "String",
+              "label": "The name of the timer to repeat",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "TimerName"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "The time between each trigger (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "TimerLength"
+            },
+            {
+              "value": "-1",
+              "type": "Number",
+              "label": "How many times should the timer trigger? -1 for forever.",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "Limit"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "An internal counter",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Counter"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "@Bouh, @arthuro555",
       "category": "User interface",
